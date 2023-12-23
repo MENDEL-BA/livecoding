@@ -15,7 +15,12 @@ public class Books {
     @Column(name = "title")
     private  String title;
 
+
     @Column(name = "author")
     private String author;
+    public Books(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
 
 }
